@@ -11,7 +11,7 @@ import org.bson.Document;
 public class MongoService {
     private final String DATABASE_NAME = "db name";
     private final String COLLECTION_NAME = "collection";
-    private final String CONNECTION_URI = "mongodb+srv://mongoDB url"; // Replace with your MongoDB URI
+    private final String CONNECTION_URI = "mongodb+srv://mongoDB url"; // Replace to actual url
 
     private MongoClient mongoClient;
     private MongoCollection<Document> collection;
